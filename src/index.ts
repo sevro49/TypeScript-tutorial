@@ -1,8 +1,4 @@
-let sales: number = 123_456_789;
-let course: string = "TypeScript";
-let is_published: boolean = true;
-let level; //type any
+let numbers: number[] = [1, 2, 3]; // applied type annotation
+let strings; // any array is not ok, apply type annotation
 
-function render (document: any ) {
-    console.log(document)
-}
+numbers.forEach(n => n.toFixed)

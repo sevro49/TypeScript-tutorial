@@ -1,7 +1,5 @@
 "use strict";
-let sales = 123456789;
-let course = "TypeScript";
-let is_published = true;
-let level;
-console.log(typeof sales);
+let numbers = [1, 2, 3];
+let strings;
+numbers.forEach(n => n.toFixed);
 //# sourceMappingURL=index.js.map
