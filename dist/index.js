@@ -1,5 +1,3 @@
 "use strict";
-let numbers = [1, 2, 3];
-let strings;
-numbers.forEach(n => n.toFixed);
+let user = [1, "Emre"];
 //# sourceMappingURL=index.js.map

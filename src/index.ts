@@ -1,4 +1,4 @@
-let numbers: number[] = [1, 2, 3]; // applied type annotation
-let strings; // any array is not ok, apply type annotation
-
-numbers.forEach(n => n.toFixed)
+let user: [number, string] = [1, "Emre"];
+// user[0].toPrecision
+// user[1].replace
+user.push(1);
