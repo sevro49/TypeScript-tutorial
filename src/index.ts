@@ -1,6 +1,19 @@
-function greet(name: string | null) {
-	if (name) console.log(name.toUpperCase());
-	console.log("Merhaba");
+type Customer = {
+	birthday?: Date;
+};
+
+function getCustomer(id: number): Customer | null {
+	return id === 0 ? null : { birthday: new Date() };
 }
 
-greet(null);
+let customer = getCustomer(2);
+
+// Optional property access operator
+console.log(customer?.birthday?.getFullYear());
+
+// Optional element access operator
+// customers?.[0]
+
+// Optional Call
+let log: any = null;
+log?.("a")
